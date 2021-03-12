@@ -1,5 +1,5 @@
 {
-  "name": "tui-library",
+  "name": "@tui/library",
   "version": "0.1.0",
   "dependencies": {
     "@material-ui/core": "^4.11.2",
