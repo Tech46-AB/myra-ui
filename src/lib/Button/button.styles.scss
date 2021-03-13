@@ -1,0 +1,13 @@
+@import '../variables/variables.scss';
+
+.tui-btn {
+
+    border: $border-thickness-default solid $primary;
+    background-color: $secondary;
+    color: $primary;
+
+    &:hover {
+        background-color: $primary;
+        color: $secondary;
+    }
+}
