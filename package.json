@@ -6,7 +6,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.ts,test.ts,test.tsx,__snapshots__",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -57,12 +57,6 @@
     "webpack": "^5.25.0",
     "webpack-cli": "^4.5.0"
   },
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "files": [
-    "dist",
-    "README.md"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/Tech46-AB/tech-ui.git"
