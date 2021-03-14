@@ -1,1 +1,1 @@
-export { TuiTypography } from "./typographic.component";
+export { Typography } from "./typographic.component";

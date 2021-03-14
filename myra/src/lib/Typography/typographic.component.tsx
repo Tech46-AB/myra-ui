@@ -1,8 +1,10 @@
-import React, { FC } from 'react';
-import { Typography, TypographyProps } from '@material-ui/core';
+import React, { FC } from "react";
+import { Typography, TypographyProps } from "@material-ui/core";
 type PropsType = {
-    styleClass?: string;
+  styleClass?: string;
 } & TypographyProps;
-const TuiTypography: FC<PropsType> = ({ ...props }) => <Typography {...props} />;
+const MyraTypography: FC<PropsType> = ({ ...props }) => (
+  <Typography {...props} />
+);
 
-export { TuiTypography };
+export { MyraTypography as Typography };

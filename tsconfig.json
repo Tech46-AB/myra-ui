@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "baseUrl": "tui",
+        "baseUrl": "myra",
       "outDir": "dist",
       "module": "esnext",
       "target": "es5",
@@ -20,6 +20,6 @@
       "noUnusedParameters": true,
       "allowSyntheticDefaultImports": true
     },
-    "include": ["src", "tui/lib"],
-    "exclude": ["node_modules", "dist", "rollup.config.js", "tui"]
+    "include": ["src", "myra/lib"],
+    "exclude": ["node_modules", "dist", "rollup.config.js", "myra"]
   }

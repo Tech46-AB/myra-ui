@@ -1,4 +1,4 @@
-import { TuiButton } from "../tui/src/lib/Button";
-import { TuiTypography } from "../tui/src/lib/Typography";
+import { Button } from "../myra/src/lib/Button";
+import { Typography } from "../myra/src/lib/Typography";
 
-export { TuiButton, TuiTypography };
+export { Button, Typography };
