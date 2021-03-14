@@ -6,19 +6,26 @@ import "./button.styles.scss";
 
 type PropsType = ButtonProps;
 
+/**
+ *
+ *
+ * @param {PropsType} {
+ *   variant,
+ *   className,
+ *   ...res
+ * }
+ * @returns {JSX.Element}
+ */
+
 const TuiButton: FC<PropsType> = ({
   variant,
   className,
   ...res
 }): JSX.Element => {
-    const cssClass = className ? `${className && className} tui-btn` : 'tui-btn'
+  const cssClass = className ? `${className && className} tui-btn` : "tui-btn";
   return (
     <StylesProvider injectFirst>
-      <Button
-        className={cssClass}
-        variant={variant || "outlined"}
-        {...res}
-      />
+      <Button className={cssClass} variant={variant || "outlined"} {...res} />
     </StylesProvider>
   );
 };
