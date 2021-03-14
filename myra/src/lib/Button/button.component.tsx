@@ -1,8 +1,11 @@
 import React, { FC } from "react";
 import { StylesProvider } from "@material-ui/core/styles";
 
-import Button, { ButtonProps } from "@material-ui/core/Button";
+import Button from "@material-ui/core/Button";
 import "./button.styles.scss";
+import { ButtonProps } from "@material-ui/core/Button";
+
+export type MuiButtonProps = ButtonProps;
 
 /**
  *
@@ -15,7 +18,7 @@ import "./button.styles.scss";
  * @returns {JSX.Element}
  */
 
-const MyraButton: FC<ButtonProps> = ({
+const MyraButton: FC<MuiButtonProps> = ({
   variant,
   className,
   ...res
