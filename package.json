@@ -1,6 +1,6 @@
 {
   "name": "tui-components",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Tech UI design system",
   "main": "dist/index.js",
   "scripts": {
