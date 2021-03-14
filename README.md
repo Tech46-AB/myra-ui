@@ -7,14 +7,14 @@ Run the following command:
 
 #### Usage
 
-`import { TuiButton } from 'myra-ui';`
+`import { Button } from 'myra-ui';`
 
 By default variant is `outlined`.<br>
 custom class support. <br>
-`<TuiButton className="custom-class">Primary Button</TuiButton>`
+`<Button className="custom-class">Primary Button</Button>`
 
 Two components added
-1. TuiButton
-2. TuiTypography
+1. Button
+2. Typography
 
 
