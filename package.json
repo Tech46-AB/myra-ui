@@ -3,6 +3,9 @@
   "version": "1.0.10",
   "description": "Tech UI design system",
   "main": "dist/index.js",
+  "directories": {
+    "tui": "tui"
+  },
   "scripts": {
     "build": "rollup -c",
     "start": "rollup -c -w",
