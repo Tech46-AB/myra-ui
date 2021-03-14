@@ -1,6 +1,20 @@
-# Tech UI Design System
+# Tech UI Components
 
-A design library extend from material ui for private use and learning purpose.
+React components extended from material ui for private use and learning purpose.
 
 Run the following command:
-`npm install tui-design-system`
+`npm install tui-components`
+
+#### Usage
+
+`import { TuiButton } from 'tui-components';`
+
+By default variant is `outlined`.
+custom class support.
+`<TuiButton className="custom-class">Primary Button</TuiButton>`
+
+Two components added
+1. TuiButton
+2. TuiTypography
+
+
