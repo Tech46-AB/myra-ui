@@ -29,7 +29,8 @@
     "start": "react-scripts start",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "chromatic": "npx chromatic --project-token 397fcc61df7e"
+    "chromatic": "npx chromatic --project-token 397fcc61df7e",
+    "deploy-gh": "cp -a ./storybook-static/. ../docs/"
   },
   "eslintConfig": {
     "extends": [

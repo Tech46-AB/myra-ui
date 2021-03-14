@@ -16,5 +16,3 @@ custom class support. <br>
 Two components added
 1. Button
 2. Typography
-
-
