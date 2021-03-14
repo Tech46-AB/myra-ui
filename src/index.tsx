@@ -1,4 +1,4 @@
-import { TuiButton } from "lib/Button";
-import { TuiTypography } from "lib/Typography";
-import App from "../tui/src/App";
-export { TuiButton, TuiTypography, App };
+import { TuiButton } from "../tui/src/lib/Button";
+import { TuiTypography } from "../tui/src/lib/Typography";
+
+export { TuiButton, TuiTypography };
