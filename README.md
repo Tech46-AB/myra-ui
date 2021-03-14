@@ -15,7 +15,7 @@ custom class support. <br>
 
 
 ### Demo 
-<a href="https://tech46-ab.github.io/myra-ui/">Myra UI</a>
+<a href="https://tech46-ab.github.io/myra-ui/" target="__blank">Myra UI</a>
 
 Two components added
 1. Button
