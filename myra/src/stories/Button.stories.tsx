@@ -3,26 +3,26 @@ import React from "react";
 import { Story, Meta } from "@storybook/react/types-6-0";
 
 import { ButtonProps } from "@material-ui/core";
-import { TuiButton } from "lib/Button";
+import { Button } from "lib/Button";
 
 export default {
   title: "Example/Button",
-  component: TuiButton,
+  component: Button,
 } as Meta;
 
-const TuiTemplate: Story<ButtonProps> = (args) => (
-  <TuiButton {...args}>{args.children}</TuiButton>
+const MyraTemplate: Story<ButtonProps> = (args) => (
+  <Button {...args}>{args.children}</Button>
 );
 
-export const Primary = TuiTemplate.bind({});
+export const Primary = MyraTemplate.bind({});
 Primary.args = {
-  children: "Default Button",
+  children: "Primary Button",
 };
 
-export const Secondary = TuiTemplate.bind({});
+export const Secondary = MyraTemplate.bind({});
 Secondary.args = {
   children: "Secondary Button",
   color: "secondary",
   onClick: () => alert("Clicked !!!"),
-  className: "tui--secondary",
+  className: "myra--secondary",
 };

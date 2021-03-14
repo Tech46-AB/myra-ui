@@ -1,5 +1,5 @@
 {
-  "name": "tui-components",
+  "name": "myra-ui",
   "version": "1.0.12",
   "description": "Tech UI design system",
   "main": "dist/index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tech46-AB/tech-ui.git"
+    "url": "git+https://github.com/Tech46-AB/myra-ui.git"
   },
   "keywords": [
     "design",
@@ -25,9 +25,9 @@
   "author": "Farhan Nazir",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Tech46-AB/tech-ui/issues"
+    "url": "https://github.com/Tech46-AB/myra-ui/issues"
   },
-  "homepage": "https://github.com/Tech46-AB/tech-ui#readme",
+  "homepage": "https://github.com/Tech46-AB/myra-ui#readme",
   "peerDependencies": {
     "react": "^16.8.0",
     "react-dom": "^16.8.0",

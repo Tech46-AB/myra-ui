@@ -1,1 +1,1 @@
-export { TuiButton } from "./button.component";
+export { Button } from "./button.component";

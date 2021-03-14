@@ -1,16 +1,16 @@
-# Tech UI Components
+# Myra UI Components
 
-React components extended from material ui for private use and learning purpose.
+React components based on material ui for private use and learning purpose.
 
 Run the following command:
-`npm install tui-components`
+`npm install myra-ui`
 
 #### Usage
 
-`import { TuiButton } from 'tui-components';`
+`import { TuiButton } from 'myra-ui';`
 
-By default variant is `outlined`.
-custom class support.
+By default variant is `outlined`.<br>
+custom class support. <br>
 `<TuiButton className="custom-class">Primary Button</TuiButton>`
 
 Two components added

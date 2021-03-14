@@ -15,7 +15,7 @@ import "./button.styles.scss";
  * @returns {JSX.Element}
  */
 
-const TuiButton: FC<ButtonProps> = ({
+const MyraButton: FC<ButtonProps> = ({
   variant,
   className,
   ...res
@@ -29,4 +29,4 @@ const TuiButton: FC<ButtonProps> = ({
     </StylesProvider>
   );
 };
-export { TuiButton };
+export { MyraButton as Button };
