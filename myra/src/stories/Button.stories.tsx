@@ -6,7 +6,7 @@ import { ButtonProps } from "@material-ui/core";
 import { Button } from "lib/Button";
 
 export default {
-  title: "Example/Button",
+  title: "Components/Button",
   component: Button,
 } as Meta;
 
