@@ -3,7 +3,7 @@
 React components based on material ui for private use and learning purpose.
 
 Run the following command:
-`npm install myra-ui`
+`npm install --save myra-ui`
 
 #### Usage
 
