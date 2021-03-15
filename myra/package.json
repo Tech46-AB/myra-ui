@@ -28,7 +28,7 @@
   "scripts": {
     "start": "react-scripts start",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public && cp -a ./storybook-static/. ../docs/",
+    "build-storybook": "build-storybook -s public && rm -r ../docs && mkdir ../docs && cp -a ./storybook-static/. ../docs/",
     "chromatic": "npx chromatic --project-token 397fcc61df7e",
     "deploy-gh": "cp -a ./storybook-static/. ../docs/"
   },

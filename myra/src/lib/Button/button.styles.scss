@@ -14,11 +14,11 @@
 }
 
 .myra--secondary {
-    background-color: rebeccapurple;
-    color: $primary;
+    background-color: $primary;
+    color: $secondary;
 
     &:hover {
-        background-color: $primary;
-        color: $secondary;
+        background-color: $secondary;
+        color: $primary;
     }
 }
