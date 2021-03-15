@@ -1,6 +1,6 @@
 {
   "name": "myra-ui",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "description": "Myra UI React components",
   "main": "dist/index.js",
   "typings": "./dist/src/index.d.ts",
