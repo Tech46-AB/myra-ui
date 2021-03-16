@@ -1,7 +1,7 @@
-import { createMuiTheme } from "@material-ui/core/styles";
-import { jsVariables } from "lib/variables";
+import { createMuiTheme, ThemeOptions } from "@material-ui/core/styles";
+import { jsVariables } from "../../variables";
 
-const lightTheme = createMuiTheme({
+const lightTheme: ThemeOptions = createMuiTheme({
   palette: {
     primary: {
       main: jsVariables.primaryColor,

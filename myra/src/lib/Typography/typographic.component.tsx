@@ -5,8 +5,7 @@ import {
   MuiThemeProvider,
   StylesProvider,
 } from "@material-ui/core";
-import { lightTheme } from "lib/theme";
-import "./typographic.styles.scss";
+import { lightTheme } from "../theme";
 
 type PropsType = TypographyProps;
 
