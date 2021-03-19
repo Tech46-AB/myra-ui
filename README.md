@@ -13,10 +13,12 @@ By default variant is `outlined`.<br>
 custom class support. <br>
 `<Button className="custom-class">Primary Button</Button>`
 
+### Demo & Usage guide
 
-### Demo 
 <a href="https://tech46-ab.github.io/myra-ui/" target="__blank">Myra UI</a>
 
-Two components added
+Components
+
 1. Button
 2. Typography
+3. Divider

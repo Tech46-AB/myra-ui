@@ -24,9 +24,3 @@ const MyraTemplate: Story<DividerProps> = (args) => {
 };
 
 export const Example = MyraTemplate.bind({});
-
-export const Secondary = MyraTemplate.bind({});
-Secondary.args = {
-  color: "secondary",
-  light: true,
-};
